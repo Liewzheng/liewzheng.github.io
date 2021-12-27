@@ -21,7 +21,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"liewzheng.cn","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.8.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/db.json","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":true,"preload":true}}</script><script src="/js/config.js"></script>
-<meta name="description" content="这世界上的好人还是很多的，就算很多地方都充斥着腐烂，却还是有希望。 那些善良的人们，不是没能力对别人造成威慑，而是不愿意用自己的能力去毁坏世界。 那些诚实的人们，不是不知谎言能骗来多少好处，而是不想为这份谎言付出证明的代价。 嫌な時はなあ、逃げたっていいんだよ。ーー「モブサイコ１００」">
+
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script><meta name="description" content="这世界上的好人还是很多的，就算很多地方都充斥着腐烂，却还是有希望。 那些善良的人们，不是没能力对别人造成威慑，而是不愿意用自己的能力去毁坏世界。 那些诚实的人们，不是不知谎言能骗来多少好处，而是不想为这份谎言付出证明的代价。 嫌な時はなあ、逃げたっていいんだよ。ーー「モブサイコ１００」">
 <meta property="og:type" content="article">
 <meta property="og:title" content="20190115">
 <meta property="og:url" content="http://liewzheng.cn/2019/01/15/Diary/20190115/index.html">
@@ -279,6 +280,14 @@
 
         
 
+    <div id="vcomments" style="margin: 1.5rem 0 0 0;"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'vRGM12EcYxDSM2lat5qjjSeY-gzGzoHsz',
+            appKey: 'WBgAb6NTAFQ7DYtgH0uOPNNh'
+        })
+    </script>
           <div class="post-nav">
             <div class="post-nav-item">
                 <a href="/2019/01/14/Diary/20190114/" rel="prev" title="20190114">
@@ -331,7 +340,11 @@
 <script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
 <script src="/js/third-party/search/local-search.js"></script>
 
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdn.jsdelivr.net/npm/pdfobject@2.2.7/pdfobject.min.js","integrity":"sha256-ph3Dk89VmuTVXG6x/RDzk53SU9LPdAh1tpv0UvnDZ2I="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js"></script>
 
+  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":{"light":"default","dark":"dark"},"js":{"url":"https://cdn.jsdelivr.net/npm/mermaid@8.13.4/dist/mermaid.min.js","integrity":"sha256-96rwDGMWIQYB0yKGp1sKi1yrjrLPj2oT39IpbCsIrsg="}}</script>
+  <script src="/js/third-party/tags/mermaid.js"></script>
 
 
 
